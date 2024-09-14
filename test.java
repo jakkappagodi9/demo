@@ -8,6 +8,7 @@ public class CircularQueue {
         this.N = k;
         q = new int[k];
     }
+    // this is test code
     public static boolean enQueue(int ele)
     {
         if(front == -1 && rear == -1 )
